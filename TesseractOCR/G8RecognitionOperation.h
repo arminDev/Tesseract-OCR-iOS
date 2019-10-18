@@ -4,6 +4,7 @@
 //
 //  Created by Nikolay Volosatov on 12.12.14.
 //  Copyright (c) 2014 Daniele Galiotto - www.g8production.com.
+//  (Version 1.0 Copyright (c) 2019 Armin Ahmadi)
 //  All rights reserved.
 //
 
@@ -17,7 +18,7 @@
  *
  *  @param tesseract The `G8Tesseract` object performing the recognition.
  */
-typedef void(^G8RecognitionOperationCallback)(G8Tesseract *tesseract);
+typedef void(^G8RecognitionOperationCallback)(G8Tesseract * _Nullable tesseract);
 
 /**
  *  `G8RecognitionOperation` is a convenience class for recognizing and 
@@ -28,14 +29,14 @@ typedef void(^G8RecognitionOperationCallback)(G8Tesseract *tesseract);
 /**
  *  The `G8Tesseract` object performing the recognition.
  */
-@property (nonatomic, strong, readonly) G8Tesseract *tesseract;
+@property (nonatomic, strong, readonly) G8Tesseract * _Nonnull tesseract;
 
 /**
  *  An optional delegate for Tesseract's recognition.
  *
  *  @note Delegate methods will be called from operation thread.
  */
-@property (nonatomic, weak) id<G8TesseractDelegate> delegate;
+@property (nonatomic, weak) id<G8TesseractDelegate> _Nullable delegate;
 
 /**
  *  The percentage of progress of Tesseract's recognition (between 0 and 100).
@@ -48,7 +49,7 @@ typedef void(^G8RecognitionOperationCallback)(G8Tesseract *tesseract);
  *  
  *  @note It will be called from main thread.
  */
-@property (nonatomic, copy) G8RecognitionOperationCallback recognitionCompleteBlock;
+@property (nonatomic, copy) G8RecognitionOperationCallback _Nullable recognitionCompleteBlock;
 
 /**
  *  A `G8RecognitionOperationBlock` function that will be called periodically
@@ -56,11 +57,11 @@ typedef void(^G8RecognitionOperationCallback)(G8Tesseract *tesseract);
  *
  *  @note It will be called from operation thread.
  */
-@property (nonatomic, copy) G8RecognitionOperationCallback progressCallbackBlock;
+@property (nonatomic, copy) G8RecognitionOperationCallback _Nullable progressCallbackBlock;
 
 /// The default initializer should not be used since the language Tesseract
 /// uses needs to be explicit.
-- (instancetype)init __attribute__((unavailable("Use initWithLanguage:language instead")));
+- (instancetype _Nonnull )init __attribute__((unavailable("Use initWithLanguage:language instead")));
 
 /**
  *  Initialize a G8RecognitionOperation with the provided language.
@@ -70,6 +71,6 @@ typedef void(^G8RecognitionOperationCallback)(G8Tesseract *tesseract);
  *  @return The initialized G8RecognitionOperation object, or `nil` if there 
  *          was an error.
  */
-- (id)initWithLanguage:(NSString*)language;
+- (id _Nullable )initWithLanguage:(NSString*_Nonnull)language;
 
 @end
