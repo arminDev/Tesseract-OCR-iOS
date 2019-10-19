@@ -134,6 +134,7 @@ class ETEXT_DESC {             // output header
                                     /// by call to set_deadline_msecs().
   EANYCODE_CHAR text[1];            /// character data
 
+#pragma GCC visibility push(default)
   ETEXT_DESC()
       : count(0),
         progress(0),
@@ -147,6 +148,7 @@ class ETEXT_DESC {             // output header
     end_time.tv_sec = 0;
     end_time.tv_usec = 0;
   }
+#pragma GCC visibility pop
 
   // Sets the end time to be deadline_msecs milliseconds from now.
   void set_deadline_msecs(int32_t deadline_msecs) {

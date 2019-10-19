@@ -1,8 +1,8 @@
 Tesseract OCR iOS 
 =================
-[![Build Status](https://travis-ci.org/gali8/Tesseract-OCR-iOS.svg?branch=master)](https://travis-ci.org/gali8/Tesseract-OCR-iOS) [![Coverage Status](https://img.shields.io/coveralls/gali8/Tesseract-OCR-iOS.svg)](https://coveralls.io/r/gali8/Tesseract-OCR-iOS) [![](https://img.shields.io/cocoapods/v/TesseractOCRiOS.svg)](http://cocoapods.org/?q=tesseractocrios) [![](https://img.shields.io/cocoapods/p/TesseractOCRiOS.svg)](http://cocoapods.org/?q=tesseractocrios)  [![](https://img.shields.io/cocoapods/l/TesseractOCRiOS.svg)](https://github.com/gali8/Tesseract-OCR-iOS/blob/master/LICENSE.md) 
+[![Build Status](https://travis-ci.org/arminDev/Tesseract-OCR-iOS.svg?branch=master)](https://travis-ci.org/arminDev/Tesseract-OCR-iOS) [![Coverage Status](https://img.shields.io/coveralls/arminDev/Tesseract-OCR-iOS.svg)](https://coveralls.io/r/arminDev/Tesseract-OCR-iOS) [![](https://img.shields.io/cocoapods/v/TesseractOCRiOS.svg)](http://cocoapods.org/?q=tesseractocrios) [![](https://img.shields.io/cocoapods/p/TesseractOCRiOS.svg)](http://cocoapods.org/?q=tesseractocrios)  [![](https://img.shields.io/cocoapods/l/TesseractOCRiOS.svg)](https://github.com/arminDev/Tesseract-OCR-iOS/blob/master/LICENSE.md) 
 
-**Use Tesseract OCR in iOS 7.0+ projects written in either Objective-C or Swift.
+**Use Tesseract OCR in iOS 11.4+ projects written in either Objective-C or Swift.
 Easy and fast.**
 
 These are the current versions of the upstream bundled libraries within the framework that this repository provides:
@@ -18,7 +18,7 @@ These are the current versions of the upstream bundled libraries within the fram
 
 Getting Started
 =================
-See the [Installation](https://github.com/gali8/Tesseract-OCR-iOS/wiki/Installation) page in the wiki. Once you're setup see some [usage examples](https://github.com/gali8/Tesseract-OCR-iOS/wiki/Using-Tesseract-OCR-iOS).
+See the [Installation](https://github.com/arminDev/Tesseract-OCR-iOS/wiki/Installation) page in the wiki. Once you're setup see some [usage examples](https://github.com/arminDev/Tesseract-OCR-iOS/wiki/Using-Tesseract-OCR-iOS).
 
 Known Limitations
 =================
@@ -31,11 +31,11 @@ Release Notes
 
 ### 3.1.1 and greater
 
-See the [Releases](https://github.com/gali8/Tesseract-OCR-iOS/releases) page
+See the [Releases](https://github.com/arminDev/Tesseract-OCR-iOS/releases) page
 
 ### Older releases
 
-See the [Release Notes wiki page](https://github.com/gali8/Tesseract-OCR-iOS/wiki/Release-Notes)
+See the [Release Notes wiki page](https://github.com/arminDev/Tesseract-OCR-iOS/wiki/Release-Notes)
 
 
 
@@ -57,3 +57,5 @@ Daniele Galiotto (founder) - iOS Freelance Developer -
 **[www.g8production.com](http://www.g8production.com)**
 
 Kevin Conley - **[www.kevintechnology.com](http://www.kevintechnology.com)**
+
+Armin Ahmadi
