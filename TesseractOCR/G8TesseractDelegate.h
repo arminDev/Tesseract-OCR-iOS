@@ -4,7 +4,6 @@
 //
 //  Created by Nikolay Volosatov on 25.12.14.
 //  Copyright (c) 2014 Daniele Galiotto - www.g8production.com. All rights reserved.
-//  (Version 1.0 Copyright (c) 2019 Armin Ahmadi)
 //
 
 #ifndef Tesseract_OCR_iOS_G8TesseractDelegate_h
